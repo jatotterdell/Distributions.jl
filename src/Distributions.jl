@@ -1,7 +1,7 @@
 module Distributions
 
 using StatsBase, PDMats, StatsFuns, Statistics
-using StatsFuns: logtwo, invsqrt2, invsqrt2π
+using StatsFuns: logtwo, invsqrt2, invsqrt2π, logπ
 
 import QuadGK: quadgk
 import Base: size, length, convert, show, getindex, rand, vec, inv
@@ -157,6 +157,7 @@ export
     Soliton,
     StudentizedRange,
     SymTriangularDist,
+    T3Dist,
     TDist,
     TriangularDist,
     Triweight,

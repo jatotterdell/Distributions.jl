@@ -694,6 +694,7 @@ const continuous_distributions = [
     "skewnormal",
     "studentizedrange",
     "symtriangular",
+    "t3dist",
     "tdist",
     "triangular",
     "triweight",
